@@ -1,0 +1,40 @@
+.stopWatch {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: timer;
+
+    .watchWrapper {
+
+        display: flex;
+        font-size: 5rem;
+        justify-content: center;
+        align-items: center;
+        background: #7687A1;
+        border-radius: 10px;
+        box-shadow: 2px 4px 4px #0000009F;
+        margin-bottom: 24px;
+        padding: 16px 12px;
+        width: 100%;
+    }
+
+    .title {
+
+        font-size: 2rem;
+    }
+
+    @media screen and (min-width: 1280px) {
+
+        .watchWrapper {
+    
+            font-size: 15rem;
+        }
+    
+        p {
+    
+            font-size: 2rem;
+        }
+    }
+}
+
